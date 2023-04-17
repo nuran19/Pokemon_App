@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #FA8072;
+}
+.container{
+    height: 100vh;
+    width: 90%;
+    margin: auto;
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.main-content{
+    padding:3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:2rem;
+}
+a{ 
+    text-decoration: none;
+}
+.card{
+    width: 300px;
+    background-color:#fff;
+    border-radius: 1rem;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+    padding: 0 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.card h2{
+color: #222;
+font-size: 1.2rem;
+}
+
+.right-content{
+    width: 50%;
+    text-align: center;
+    color: black;
+    position: fixed;
+    top:100px;
+    right: 10px;
+}
+.right-content img{
+    margin: 1.5rem;
+    height: 160px;
+}
+.right-content h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.section-about{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.about-container{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding:2rem;
+
+}
+.about-container h1{
+    color:white;
+    text-transform: capitalize;
+    font-size: 44px;
+}
+.abilities{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.abilities .group{
+    background-color: #b74555;
+    color: white;
+    padding: 0.5rem;
+    font-size: 12px;
+    border-radius: 8px;
+    margin-left: 1rem;
+}
+.base-stat{
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+.base-stat h3{
+    color:#fff;
+}
+.btn-group{
+    display: flex;
+}
+.btn-group button{
+    outline: none;
+    border: none;
+    width: 150px;
+    padding: 0.3rem 0;
+    margin: 1rem;
+    cursor: pointer;
+    color: #222;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    letter-spacing: 0.2px;
+    background-color: #FFF5EE;
+    border-radius: 8px;
+}
